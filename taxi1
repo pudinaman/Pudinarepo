@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int T;
+    cin>>T;
+    for(int i=1;i<=T;i++)
+    {
+        int x; int y;
+        cin>>x>>y;
+        if (x<y)
+        {
+            cout<<"FIRST"<<"\n";
+        }
+        else if(x>y)
+        {
+            cout<<"SECOND"<<"\n";
+        }
+        else if (x==y)
+        {
+            cout<<"ANY"<<"\n";
+        }
+    }
+    
+        return 0;
+}
+
