@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int x,y,t;
+	cin>>t;
+	for(int i=0;i<t;i++)
+	{
+	    cin>>x>>y;
+	    cout<<10*x+5*y<<endl;
+	}
+	return 0;
+}
