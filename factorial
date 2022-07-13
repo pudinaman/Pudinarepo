@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int factorial(int num)
+{
+    int factor=1;
+    for(int i=num;i>0;--i)
+    {
+        factor=factor*i;
+    }return factor;
+}
+int main()
+{
+    int n;
+    cin>>n;
+    int ans=factorial(n);
+    cout<<ans;
+    return 0;
+}
