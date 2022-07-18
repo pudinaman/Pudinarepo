@@ -1,0 +1,32 @@
+
+#include <iostream>
+#include<climits>
+
+using namespace std;
+
+int main()
+{
+    int n;
+    cin>>n;
+    int max=INT_MIN;
+    int min=INT_MAX;
+    int arara[n];
+    for(int i=0;i<=n;i++)
+    {
+        cin>>arara[i];
+    }
+    for(int i=0;i<=n;i++)
+    {
+
+        if(arara[i]>max)
+        {
+            max=arara[i];
+        }
+        if(arara[i]<min)
+        {
+            min=arara[i];
+        }
+    }cout<<max<<" "<<min;
+    
+    return 0;
+}
